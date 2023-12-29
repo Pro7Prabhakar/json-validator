@@ -1,0 +1,10 @@
+{
+    "required_fields": ["id", "name"],
+    "at_least_one_of": ["home_phone", "cell_phone", "work_phone"],
+    "either_one_or_another": ["birth_date", "govt_id_number"],
+    "mutually_exclusive_fields": ["birth_date", "govt_id_number"],
+    "field_values": {
+      "day": ["SU", "MO", "TU", "WE", "TH", "FR", "SA"]
+    }
+  }
+  
